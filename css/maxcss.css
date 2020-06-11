@@ -1,0 +1,251 @@
+<style id="style1">
+			#div1 {
+				width: 1520px;
+				height: 100px;
+				background: '';
+				float: left;
+				position: relative;
+				z-index: 4;
+			}
+			
+			#search {
+				border-radius: 25px;
+				height: 45px;
+				width: 300px;
+				font-size: 15px;
+				margin-left: 45px;
+				margin-top: 20px;
+				border: 1px solid gray;
+				font-family: "arial, helvetica, sans-serif";
+				padding-left: 25px;
+				background-image: url(006.png);
+				background-repeat: no-repeat;
+				background-position: 250px;
+				outline: none;
+			}
+			
+			#src {
+				width: 135px;
+				transform: translate(250%, 20%);
+				position: absolute;
+				top: 10px;
+			}
+			
+			#src1 {
+				position: absolute;
+				top: 22px;
+				left: 1350px;
+				width: 37px;
+			}
+			
+			#src2 {
+				position: absolute;
+				top: 22px;
+				left: 1400px;
+				width: 37px;
+			}
+			
+			#src3 {
+				position: absolute;
+				top: 20px;
+				left: 1450px;
+				width: 37px;
+			}
+		</style>
+		<style id="style2">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#div2 {
+				width: 1500px;
+				height: 100px;
+				position: relative;
+			}
+			
+			#src0 {
+				width: 1537px;
+				position: absolute;
+			}
+			
+			#big {
+				position: absolute;
+				top: -100px;
+			}
+			p.fuck{font-size: 15px;}
+			p.you{font-size: 20px;}
+		</style>
+
+		<style id="ÓÒ²à±ßÀ¸">
+			#div6 {
+				width: 500px;
+				height: 900px;
+				background: white;
+				border: 1px solid slategray;
+				transform: translateY(-16%);
+				left: 1050px;
+				display: none;
+				position: relative;
+				top: 143px;
+				z-index: 5;
+			}
+			
+			#div6 li {
+				width: 180px;
+				height: 60px;
+				float: left;
+				position: relative;
+				list-style: none;
+				top: 15px;
+				font-size: 20px;
+				left: 10px;
+			}
+			
+			#li16 {
+				transform: translate(360px, -50px);
+			}
+			
+			#hr6 {
+				width: 500px;
+				position: relative;
+				top: -50px;
+			}
+			
+			#li15 {
+				transform: translate(10px, 10px);
+			}
+			
+			#li14 {
+				transform: translateY(10px);
+			}
+			
+			#x {
+				position: relative;
+				left: 390px;
+			}
+			
+			#div6 img {
+				display: none;
+			}
+			
+			#div6 a {
+				text-decoration: none;
+				color: black;
+			}
+			
+			.over {
+				font-weight: 1000;
+			}
+			
+			.out {
+				font-weight: normal;
+			}
+		</style>
+
+		<style>
+			#div5 li {
+				width: 150px;
+				height: 50px;
+				position: relative;
+				float: left;
+				list-style: none;
+				transform: translateX(190px);
+				font-size: 13px;
+				top: 60px;
+				z-index: 2;
+			}
+			
+			#hrr {
+				width: 1536px;
+				transform: translateY(40px);
+			}
+			
+			#div5 img {
+				width: 1400px;
+				position: relative;
+				left: 60px;
+				display: none;
+				transform: translateY(40px);
+				z-index: 4;
+			}
+			
+			.over {
+				font-weight: 1100;
+			}
+			
+			.out {
+				font-weight: normal;
+			}
+			
+			#div5 a {
+				text-decoration: none;
+				color: black;
+			}
+		</style>
+		<style id="ÎÞ·ì¹ö¶¯">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#div9 {
+				position: absolute;
+				top: 300px;
+				left: 45px;
+				width: 1440px;
+				height: 616px;
+				overflow: hidden;
+				z-index: 1;
+			}
+			
+			#div9 ul {
+				position: absolute;
+			}
+			
+			#div9 ul li {
+				float: left;
+				width: 1440px;
+				height: 616px;
+				list-style: none;
+			}
+			
+		</style>
+		<style>
+			#open {
+				position: absolute;
+				left: 1490px;
+				top: 300px;
+			}
+			
+			#close {
+				position: absolute;
+				left: 1490px;
+				top: 305px;
+				display: none;
+			}
+			
+		</style>
+		<style>
+			#span4{
+				color: red;
+				position: absolute;
+				left: 720px;
+				top: 164px;
+				display: none;
+			}
+			#span3{
+				color: black;
+				position: absolute;
+				left: 720px;
+				top: 164px;
+				display: none;
+			}
+			#span5{
+				color: red;
+				position: absolute;
+				left: 720px;
+				top: 205px;
+				display: none;
+			}
+		</style>

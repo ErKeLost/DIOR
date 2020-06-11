@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery.js"></script>
+		<script src="完美框架.js"></script>
+		<link rel="stylesheet" href="js/../bootstrap-3.3.7/dist/css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="js/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/完美框架.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<style id="style1">
+			#div1 {
+				width: 1520px;
+				height: 100px;
+				background: '';
+				float: left;
+				position: relative;
+				z-index: 4;
+			}
+			
+			#search {
+				border-radius: 25px;
+				height: 45px;
+				width: 300px;
+				font-size: 15px;
+				margin-left: 45px;
+				margin-top: 20px;
+				border: 1px solid gray;
+				font-family: "arial, helvetica, sans-serif";
+				padding-left: 25px;
+				background-image: url(006.png);
+				background-repeat: no-repeat;
+				background-position: 250px;
+				outline: none;
+			}
+			
+			#src {
+				width: 135px;
+				transform: translate(250%, 20%);
+				position: absolute;
+				top: 10px;
+			}
+			
+			#src1 {
+				position: absolute;
+				top: 22px;
+				left: 1350px;
+				width: 37px;
+			}
+			
+			#src2 {
+				position: absolute;
+				top: 22px;
+				left: 1400px;
+				width: 37px;
+			}
+			
+			#src3 {
+				position: absolute;
+				top: 20px;
+				left: 1450px;
+				width: 37px;
+			}
+		</style>
+		<style id="style2">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#div2 {
+				width: 1500px;
+				height: 100px;
+				position: relative;
+			}
+			
+			#src0 {
+				width: 1537px;
+				position: absolute;
+			}
+			
+			#big {
+				position: absolute;
+				top: -100px;
+			}
+			p.fuc{font-size: 15px;}
+			p.you{font-size: 20px;}
+		</style>
+
+		<style >
+			#div6 {
+				width: 500px;
+				height: 900px;
+				background: white;
+				border: 1px solid slategray;
+				transform: translateY(-16%);
+				left: 1050px;
+				display: none;
+				position: relative;
+				top: 143px;
+				z-index: 5;
+			}
+			
+			#div6 li {
+				width: 180px;
+				height: 60px;
+				float: left;
+				position: relative;
+				list-style: none;
+				top: 15px;
+				font-size: 20px;
+				left: 10px;
+			}
+			
+			#li16 {
+				transform: translate(360px, -50px);
+			}
+			
+			#hr6 {
+				width: 500px;
+				position: relative;
+				top: -50px;
+			}
+			
+			#li15 {
+				transform: translate(10px, 10px);
+			}
+			
+			#li14 {
+				transform: translateY(10px);
+			}
+			
+			#x {
+				position: relative;
+				left: 390px;
+			}
+			
+			#div6 img {
+				display: none;
+			}
+			
+			#div6 a {
+				text-decoration: none;
+				color: black;
+			}
+			
+			.over {
+				font-weight: 1000;
+			}
+			
+			.out {
+				font-weight: normal;
+			}
+		</style>
+
+		<style>
+			#div5 li {
+				width: 150px;
+				height: 50px;
+				position: relative;
+				float: left;
+				list-style: none;
+				transform: translateX(190px);
+				font-size: 13px;
+				top: 60px;
+				z-index: 2;
+			}
+			
+			#hrr {
+				width: 1536px;
+				transform: translateY(40px);
+			}
+			
+			#div5 img {
+				width: 1400px;
+				position: relative;
+				left: 60px;
+				display: none;
+				transform: translateY(40px);
+				z-index: 4;
+			}
+			
+			.over {
+				font-weight: 1100;
+			}
+			
+			.out {
+				font-weight: normal;
+			}
+			
+			#div5 a {
+				text-decoration: none;
+				color: black;
+			}
+		</style>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#div9 {
+				position: absolute;
+				top: 300px;
+				left: 45px;
+				width: 1440px;
+				height: 616px;
+				overflow: hidden;
+				z-index: 1;
+			}
+			
+			#div9 ul {
+				position: absolute;
+			}
+			
+			#div9 ul li {
+				float: left;
+				width: 1440px;
+				height: 616px;
+				list-style: none;
+			}
+			
+		</style>
+		<style>
+			#open {
+				position: absolute;
+				left: 1490px;
+				top: 300px;
+			}
+			
+			#close {
+				position: absolute;
+				left: 1490px;
+				top: 305px;
+				display: none;
+			}
+			
+		</style>
+		<style>
+			#span4{
+				color: red;
+				position: absolute;
+				left: 720px;
+				top: 164px;
+				display: none;
+			}
+			#span3{
+				color: black;
+				position: absolute;
+				left: 720px;
+				top: 164px;
+				display: none;
+			}
+			#span5{
+				color: red;
+				position: absolute;
+				left: 720px;
+				top: 205px;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body style="height: 3900px;width: 3000px;">
+
+		<div id="big">
+
+			<div id="div2">
+				<img src="image/000.png" width="100" id="src0" />
+			</div>
+			<div id="div1" style="background-image:url(../yyy.png);z-index: 10;">
+				<input id="search" type="search" placeholder="在dior.cn上搜索" onchange="borderwidth()">
+
+				<a href="http://www.dior.cn"><img id="src" src="image/002.png" /></a>
+				<img src="image/003.png" id="src1" onclick="Windowxx()" />
+				<img src="image/004.png" id="src2" />
+				<img src="image/005.png" id="src3" />
+			</div>
+			<div id="div5" onmouseover="Windowqq()">
+
+				<li style="transform: translateX(350px);">女士精品</li>
+				<li style="transform: translateX(320px);">
+					<a href="#">男士精品</a>
+				</li>
+				<li style="transform: translateX(300px);">
+					<a href="#">香氛</a>
+				</li>
+				<li style="transform: translateX(245px);">
+					<a href="#">彩妆</a>
+				</li>
+				<li>
+					<a href="#">护肤</a>
+				</li>
+				<li style="transform: translateX(120px);">
+					<a href="#">童装精品</a>
+				</li>
+				<li style="transform: translateX(80px);">
+					<a href="#">臻选之礼品</a>
+				</li>
+				<li style="transform: translateX(50px);">
+					<a href="#">邂逅迪奥 & 精湛工艺</a>
+				</li>
+
+				<hr id="hrr" style="position: absolute;top: 250px;" />
+				<img src="image/008.png">
+				<img src="image/009.png">
+				<img src="image/010.png">
+				<img src="image/011.png">
+				<img src="image/012.png">
+				<img src="image/013.png">
+				<img src="image/014.png">
+				<img src="image/015.png">
+
+			</div>
+			<img src="image/666.png" id="open" />
+			<img src="image/777.png" id="close" />
+
+			<div id="div9">
+				<ul>
+					<li><img src="image/03.jpg" onclick="showWindow()" </li>
+						<li><img src="image/02.jpg" </li>
+							<li><img src="image/01.jpg" </li>
+								<li><img src="image/05 .jpg" </li>
+									<li><img src="image/06.png" </li>
+										<li><img src="image/07.jpg" </li>
+											<li><img src="image/08.jpg" </li>
+												<li><img src="image/04.png" </li>
+				</ul>
+			</div>
+			<img src="image/1a.png" id="aa" style="left: 1400px;top: 575px;position: absolute;z-index: 2;
+	    	filter: alpha(opacity=10);opacity: 0.1;" />
+			<img src="image/2a.png" id="bb" style="left: 80px;top: 575px;position: absolute;z-index: 2;
+	    	filter: alpha(opacity=10);opacity: 0.1;" />
+
+			<div id="cover" onclick="Windowyy()" style="background:black;; position: absolute; left: 0px; top: 0px; width: 1500px;height:3500px;
+	    	 filter: alpha(opacity=30); opacity: 0.3; display: none; z-index: 4 ">
+
+			</div>
+		</div>
+		<div id="showdiv" style="display: none; z-index: 4;position: absolute;">
+			<img src="image/pc.jpg" style="width: 650px;position: relative;z-index: 4;top:220px;left: 450px;" />
+			<input type="button" onclick="closeWindow()" value="立即解锁惊喜" style="position: absolute;
+	   		z-index: 4;top: 630px;left: 652px;border-radius: 50px;
+	   		width: 250px;height: 50px;background: black;color: white;text-decoration: none;
+	   		outline: none;;" />
+		</div>
+		<div id="div6">
+			<ul>
+
+				<hr id="h5" style="position: relative;top: 10px;" />
+				<li id="li14">
+					<a href="#">我的收藏（2）</a>
+				</li>
+				<li id="li15">
+					<a href="#">我的账户</a>
+				</li>
+				<li id="li16">
+					<a href="#">购物袋 </a>
+				</li>
+				<hr id="hr6" />
+				<img src="image/100.png" id="100" style="width: 500px;display: block;" />
+				<img src="image/101.png" id="101" style="width: 500px;" />
+				<img src="image/102.png" id="102" style="width: 500px;" />
+			</ul>
+				<select id="pro" style="z-index:;">
+			<option>--样式--</option>
+			<option value="0">Dior鞋</option>
+			<option value="1">Dior衣服</option>
+			
+		</select>
+		<select id="city">
+			<option>--尺码--</option>
+		</select>
+		</div>
+
+		<img src="image/55.png" style="position: absolute;left: 1440px;z-index: 0;
+	  	top: 750px;width: 70px;display: none;" id="let" />
+		<img src="image/115.png" style="position: absolute; left: 1350px;top: 1750px;width: 80px;display:;z-index: 0;" id="go" />
+		<img src="image/t.png" style="position: absolute;left: 1265px;top: 1755px;width: 82px;;z-index: 0; " id="zz" />
+		<div style="background:#F0F0F0;height: 900px;width:1530px;position: absolute;
+	  		top: 850px;">
+			<div id="demo" class="carousel slide" data-ride="carousel" style="position: absoute;
+	  			top: 190px;z-index: ;">
+
+				<!-- 指示符 -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+
+				<!-- 轮播图片 -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="image/78.png" style="position:relativ;width: 1300px;
+      	">
+					</div>
+					<div class="carousel-item">
+						<img src="image/79.png" style="position: relatve;width: 1300px;">
+					</div>
+					<div class="carousel-item">
+						<img src="image/789.png" style="position: relatve;width: 1300px;" id="go">
+					</div>
+				</div>
+				<!-- 左右切换按钮 -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev" style="position:absolute ;">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next" style="position:absolute ;left: 1150px;">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+			</div>
+			<div style="position:absolute;left: 200px;top: 200px;">
+				<p id="demo666" style="position: absolute;top: -180px;left: 600px;font-size: 50px;"></p>
+				<hr noshade="noshade" style="width: 200px;position: absolute;left: 540px;top: -115px;" />
+				<p id="demo200" style="font-size: 50px;position: absolute;top: -100px;left: 590px;width: 100px;"></p>
+				<h1 style="position: relative;top: -150px;left: -50px;">精选</h1>
+			</div>
+		</div>
+		<div id="xx" style="border: 1px solid black;position: absolute;
+  	top: 2000px;width: 500px;height: 335px;left: 520px;display: none;background: white;z-index: 2;">
+			<img src="image/0.png" id="qq" style="position: absolute;left: 430px;top: 5px;" />
+			<img src="image/886.png" width="490" />
+		</div>
+		<hr style="position: absolute;width: 1580px;top: 1800px;" noshade="noshade	" />
+		<p style="position: absolute;top: 1850px;font-size: 50px;left: 730px;">女士</p>
+		<p style="position: absolute;top: 1920px;font-size: 15px;left: 610px;">
+			Dior从标志性杰作到最新作品，探索Dior迪奥演绎的妩媚魅力。 </p>
+		<img src="image/06.png" style="position: absolute;top: 1950px;left: 40px;" / ">
+	<p style="position: absolute;top: 2570px;font-size: 35px;left: 20px; ">DIOR迪奥女人节
+</p>
+	<p style="position: absolute;top: 2630px;font-size: 15px;left: 20px; ">
+		迪奥小姐花漾淡香氛，诠释Christian Dior迪奥先生对花卉的挚爱。清新玫瑰香气交织柔曼牡丹芬芳，温婉轻抚。
+	</p>
+	
+	<img src="image/w.jpg " style="position: absolute;top: 2700px;left: 50px; width: 300px;"/>
+	<img src="image/e.png " style="position: absolute;top: 2700px;left: 450px; width: 300px;"/>
+	<img src="image/r.png " style="position: absolute;top: 2700px;left: 850px;width: 300px; "/>
+	<img src="image/q.png " style="position: absolute;top: 2700px;left: 1250px;width: 300px;" />
+	<p style="position: absolute;top: 3030px;left: 80px;font-size: 25px; ">迪奥小姐 花漾淡香氛</p>
+	<p style="position: absolute;top: 3030px;left: 555px;font-size: 25px; ">手提包</p>
+	<p style="position: absolute;top: 3030px;left: 975px;font-size: 25px; ">首饰</p>
+	<p style="position: absolute;top: 3030px;left: 1350px;font-size: 25px; ">迪奥小姐</p>
+	<img src="image/189.png " style="position: absolute;top: 3100px;left: px;width: 1540px; " id="such"/>
+	<input type="search"style="position: absolute;top: 3276px;left: 600px; width: 340px;
+		height: 65px;border-radius: 50px; outline: none;font-size: 17px;padding: 30px;
+		 border: 1px solid black; background-image: url(006.png); background-repeat: no-repeat;
+		  background-position: 270px; "
+				placeholder="城市，邮编，国家/中国地区  "id="cxz"/>
+	<img src="image/aas.png "style="position: absolute;top: 3500px;left: px;width: 1540px; " />
+	<div id="mouse"style="display: none;">
+		<img src="image/lkj.png"id="lkj" style="position: absolute;top: 3900px;left: 1410px;z-index: 4;" />
+	<img src="image/456.png" id="xo" style="position: absolute;top: 4000px;left: 1100px;
+		width: 350px;height: 500px;display: ;"/>
+		
+		<input type="text" style="position: absolute;
+			top: 4350px;left: 1100px;width: 350px;outline: none;border: solid gainsboro;
+			height: 50px;padding: 20px;background-image: url(image/poi.png);background-repeat: no-repeat;
+			background-position: 300px;
+			"placeholder="请输入....."id="tex5"/>
+			<ul id="ul1" style="position: absolute;list-style: none;
+				top: 4100px;left: 1100px;width: 350px;height: 250px;">
+				<li style="float: right;font-size: 1px;"><img src="image/233.png " style="width: 50px;height: 50px;
+					border-radius: 150px;"/></li>
+			</ul>
+			
+		<p  class="you"id="meo" style="position: absolute;top: 3375px;left: 1200px;z-index: 3;"></p>
+			<p  class="you"id="meo1" style="position: absolute;top: 3375px;left: 1250px;z-index: 3;"></p>
+			<p style="position: absolute;top: 3377px;left: 1265px;z-index: 3;" id="mnb">/</p>
+			<p  class="you"id="meo2" style="position: absolute;top: 3375px;left: 1275px;z-index: 3;"></p>
+			<p style="position: absolute;top: 3377px;left: 1245px;z-index: 3;" id="mnb1">/</p>
+			<p class="fuc" id="meo3" style="position: absolute;top: 3470px;left: 1150px;"z-index: 4;></p>
+			<p id="heo" style="position: absolute;top: 3472px;left: 1173px;"z-index: 4;>:</p>
+			<p class="fuc"  id="meo4" style="position: absolute;top: 3470px;left: 1185px;"z-index: 4;></p>
+			<p id="heo1" style="position: absolute;top: 3472px;left: 1211px;"z-index: 4;>:</p>
+			<p class="fuc"  id="meo5" style="position: absolute;top: 3470px;left: 1220px;"z-index: 4;></p>
+			<img src="image/poi.png"  style="position: absolute;top: 150px;"/>
+	</div>
+	<div id="user" style="position: absolute;width: 1100px; height: 600px;
+		background-image: url(image/45.png);z-index: 5;left: 200px;top: 50px;opacity;display: none;">
+		<h2 style="position: absolute;left: 450px;top: 100px;">加入会员</h2>
+		<input type="text" onblur="focus()"  id="rr" style="position: absolute;left: 450px;top: 160px;width: 250px;
+			height: 35px;"placeholder="*姓名"/><span id='span4'>用户名禁止出现数字</span><span id="span3">格式正确</span>
+		<input type="text"onblur="focus2()" name="rr" id="gop" style="position: absolute;left: 450px;top: 200px;width: 250px;
+			height: 35px;"placeholder="*电子邮箱"/><span id="span5">不是一个有效的E-mail地址</span>
+			<input type="text" name="rr" id="rr" style="position: absolute;left: 450px;top: 240px;width: 250px;
+			height: 35px;"placeholder="*密码"/>
+			<input type="text" name="rr" id="rr" style="position: absolute;left: 450px;top: 300px;width: 250px;
+			height: 35px;"placeholder="*手机"/>
+			<input type="checkbox" id="tt" style="position: absolute;left: 300px;top: 417px;width:17px;height:20px;
+			"/>
+			<p style="position: absolute;left: 325px;top: 415px;">我已阅读和了解DIOR及本网站的 条款条件 和 隐私政策，并且同意接受其中所有的条款。</p>
+			<input type="checkbox"checked  id="tt1" style="position: absolute;left: 300px;top: 382px;width:17px;height:20px;
+			"/>
+			<p style="position: absolute;left: 325px;top: 380px;">我不同意DIOR及所在DIOR集团向我发送邮件、彩信或致电。</p>
+			<div id="sub" style="position: absolute;width: 250px;height: 50px;background:black;left: 450px;
+				top: 450px;"><b style="position: absolute;left: 90px;top: 10px;color: white">提交注册</b></div>
+				<p style="position: absolute;left: 480px;top: 520px;">已经注册？</p>
+				<a href="#"style="position: absolute;left: 590px;top: 520px;color: blueviolet;">请登陆</a>
+				<img src="image/656.png"style="position: absolute;left: 1000px;" id="wa"/>
+	</div>
+	<p style="position: absolute;z-index: 4;left: 1150px;top: 25px;" id="lot">欢迎进入DIOR</p>
+<script>
+			var opro=document.getElementById('pro');
+		
+			opro.onchange=function(){
+				var opro1=opro.value;
+				var ocity=document.getElementById('city');
+				var citys=new Array();
+				citys[0]=new Array("38","38.5","39","40","41");
+				citys[1]=new Array("L","XL","XXL","XXXL");
+				ocity.options.length=0;
+				for(var i=0 ; i < citys.length;i++){
+					if(opro1==i){
+						for(var j=0 ; j < citys[i].length;j++){
+						   var textnode = document.createTextNode(citys[i][j]);
+                     var optionnode = document.createElement("option");
+                     optionnode.appendChild(textnode);
+                     ocity.appendChild(optionnode);
+						}
+					}
+				}
+			}
+		</script>
+	<script>
+		var gop=document.getElementById('gop');
+		var span5=document.getElementById('span5');
+		var tgop=gop.value;
+		var adp=tgop.indexof('@');
+		var adps=tgop.indexof('.');
+		gop.onblur=focus;
+		function focus2(){
+			var tgop=gop.value;
+			for(var i=0;i<tgop.length;i++){
+			if(isNaN(tgop.charAt(i))){
+				span5.style.display='block';
+		       
+			}else{
+				span5.style.display='none';
+			}
+			}
+		}
+	</script>
+		    <script>
+		    
+		    	$('#src2').click(function(){
+		    		$('#cover').show();
+		    		$('#user').show();
+		    	})
+		    	$('#wa').click(function(){
+		    		$('#cover').hide();
+		    		$('#user').hide();
+		    	})
+		    	var username=document.getElementById('rr');
+		    	var span=document.getElementById('span4');
+		    	var ousername=username.value;
+		    	username.onblur=focus;
+		    	function focus(){
+		    	var ousername=username.value;
+		    	for(var i=0;i<ousername.length;i++){
+		    	if(!isNaN(ousername.charAt(i))){
+						span4.style.display='block';
+						}else{
+							span4.style.display='none';
+							span3.style.display='block';
+						}
+						}
+						}
+		    	$('#sub').click(function(){
+		   
+		    		$('#lot').load('js/huanying.txt')
+		    		$('#user').hide();
+		    		$('#cover').hide();
+		    	
+		    	})
+		    	var sub=document.getElementById('sub');
+		    	var tt=document.getElementById('tt');
+		    	var tt1=document.getElementById('tt1');
+		    	var user=document.getElementById('user');
+		    	var cover=document.getElementById('cover');
+		    	var lot=document.getElementById('lot');
+		    	sub.onclick=function(){
+		    		if(tt1.checked==true){
+		    			alert('请仔细阅读下列条款!!!!');
+		    			user.style.display='block';
+		    			cover.style.display='block';
+		    		}else{
+		    			user.style.display='none';
+		    		
+		    			
+		    			
+		    		}
+		    	}
+		    </script>
+	<script>
+		var d=new Date();
+		var b=document.getElementById('meo');
+		var c=document.getElementById('meo1');
+		var e=document.getElementById('meo2');
+		var f=document.getElementById('meo3');
+		var g=document.getElementById('meo4');
+		var h=document.getElementById('meo5');
+		b.innerHTML=d.getFullYear();
+		c.innerHTML=d.getMonth()+1;
+		e.innerHTML=d.getDate();
+		f.innerHTML=d.getHours();
+		g.innerHTML=d.getMinutes();
+		h.innerHTML=d.getSeconds();
+	</script>
+	  <script>
+
+	var d = new Date();
+	var x = document.getElementById("demo666");
+	x.innerHTML=d.getDate();
+var x = document.getElementById("demo200");
+	x.innerHTML=d.getMonth()+1+'月';
+	
+</script>
+	<script>
+		var oul1=document.getElementById('ul1');
+		var otex5=document.getElementById('tex5');
+		var oli=document.createElement('li');
+		
+		oli.style="font-size: 100px;"
+		
+		otex5.onkeydown=function(ev){
+			var oli=document.createElement('li');
+			
+			oul1.appendChild(oli);
+			var oevent=ev||event;
+			oli.style.float='right';
+	        
+			
+			if(oevent.keyCode==13 && oevent.ctrlKey){
+				
+				oli.innerHTML=otex5.value;
+			otex5.value='';
+			}
+	
+		}
+	</script>
+
+	    <script >
+	    window.onload=function(){
+	 
+	    	 var oopen=document.getElementById('open');
+	    var oclose=document.getElementById('close');
+	    clearInterval(timer);
+	    oopen.onclick=function(){
+	    	timer=setInterval(move,30);
+	    		oclose.style.display='block';
+	    		oopen.style.display='none';
+	    	}
+	    oclose.onclick=function(){
+	    	clearInterval(timer);
+	    	oclose.style.display='none';
+	    		oopen.style.display='block';
+	    }
+	    var oa=document.getElementById('aa');
+	    var ob=document.getElementById('bb');
+	   
+	
+	    oa.onclick=function(){
+	    	change();
+	    }
+	     ob.onclick=function(){
+	   change2();
+	    }
+         clearInterval(timer);
+		var odiv1=document.getElementById('div9');
+				var aul=odiv1.getElementsByTagName('ul')[0];
+				var oli=aul.getElementsByTagName('li');
+				var timer=null;
+				var speed=-2;
+				var ospeed=-1440;
+				aul.innerHTML=aul.innerHTML+aul.innerHTML;
+				aul.style.width=oli[0].offsetWidth*oli.length+'px';
+				function move()
+					{ 
+						if(aul.offsetLeft<-aul.offsetWidth/2){
+						aul.style.left='0';
+					}
+					 
+						aul.style.left=aul.offsetLeft+speed +'px';
+					}
+				clearInterval(timer);
+				odiv1.onmouseover=function(){
+					/*clearInterval(timer);*/
+				}
+				odiv1.onmouseout=function(){
+					/*timer=setInterval(move,30);*/
+			}
+		    function change()
+		    		{ 
+						if(aul.offsetLeft<-aul.offsetWidth/2){
+						aul.style.left='0';
+					}
+					 
+						aul.style.left=aul.offsetLeft+ospeed +'px';
+					}
+		    		function change2()
+		    		{ 
+						if(aul.offsetLeft<-aul.offsetWidth/2){
+						aul.style.left='0';
+					}
+					 
+						aul.style.left=aul.offsetLeft-ospeed +'px';
+					}
+		    }
+	    
+				
+	   
+	    </script>
+
+        <script >
+      var odiv1=document.getElementById('div1')
+        		var osearch=document.getElementById('search');
+        		var xsearch=document.getElementById('cxz');
+        		var osuch=document.getElementById('such');
+        		osearch.onclick=function(ev){
+        			var oevent=ev||event;
+        			var i=2.5;
+        			osearch.style.borderWidth=i+'px';
+        			
+        			oevent.stopPropagation();
+        			
+        		}
+        	    odiv1.onclick=function(){
+        			
+        			osearch.style.borderWidth=osearch.style.border;
+        			
+        		}
+        	    
+        	   
+        		
+       </script>
+	    <script>
+	    	var osrc=document.getElementById('src');
+	    	var odiv2=document.getElementById('big');
+	    	var speed=0;
+	    	var target=0;
+	    	var timer=null;
+	    	function startmove(target){
+	    		if(odiv2.offsetTop>target){
+	    			speed=(target-odiv2.offsetTop)/50;
+	    		}else{
+	    			speed=(target-odiv2.offsetTop)/50;
+	    		}
+	    		speed=speed>0?Math.ceil(speed):Math.floor(speed);
+	    		clearInterval(timer);
+	    		timer=setInterval(function(){
+	    			if(odiv2.offsetTop==target){
+	    				clearInterval(timer);
+	    			}else{
+	    				odiv2.style.top=odiv2.offsetTop+speed+'px';
+	    			}
+	    		},60);
+	    	}
+	    	osrc.onmouseover=function(){
+	    		startmove(0);
+	    	}
+	    	osrc.onmouseout=function(){
+	    		startmove(-100);
+	    	}
+	    </script>
+	    <script>
+
+	   /* var odiv1=document.getElementById('div1');
+	    	var osrc1=document.getElementById('src1');
+	    	var odiv6=document.getElementById('div6');
+	    	var timer=null;
+	    	speed=speed>0?Math.ceil(speed):Math.floor(speed);
+	    osrc1.onclick=function(ev){
+	    	var oevent=ev||event;
+	    	oevent.cancelBubble=true;
+	    	clearInterval(timer);
+	    	timer=setInterval(function(){
+	    		var speed=(odiv6.offsetLeft-1036)/30;
+	    		if(odiv6.offsetLeft<=1036){
+	    			clearInterval(timer);
+	    		}else{
+	    			odiv6.style.left=odiv6.offsetLeft-speed+'px';
+	    		}
+	    	},60);
+	    	  odiv6.style.display='block';	 
+	    }
+	 odiv1.onclick=function(){
+	    	odiv6.style.display='none';
+	  }	 
+	    </script>
+	    <script >
+	    	var odiv=document.getElementById('div6');
+	    	var oli1=odiv.getElementsByTagName('li');
+	    	var oimg1=odiv.getElementsByTagName('img');
+	    	for(var i=0;i<oli1.length;i++){
+	    		oli1[i].index=i;
+	    		oli1[i].onclick=function(){
+	    			for(var i=0;i<oli1.length;i++){
+	    				
+	    				oimg1[i].style.display='none';
+	    			}
+	    			oimg1[this.index].style.display='block';
+	    			this.className='over';
+	    			
+	    			
+	    		}
+	    		oli1[i].onmouseout=function(){
+	    			this.className='out';
+	    		}
+	    	}
+	    	 
+	    </script>
+	    	    <script > 
+	    	var xdiv=document.getElementById('div5');
+	    	var oul=xdiv.getElementsByTagName('ul');
+	    	var oli=xdiv.getElementsByTagName('li');
+	    	var oimg=xdiv.getElementsByTagName('img');
+	    	var timer=null;
+	    	for(var i=0;i<oli.length;i++){
+	    		oli[i].index=i;
+	    		oli[i].onmouseover=function(){
+	    			for(var i=0;i<oli.length;i++){
+	    				oimg[i].style.display='none';
+	    			}
+	    			oimg[this.index].style.display='block';
+	    			this.className='over';
+	    		}
+	    		oli[i].onmouseout=function(){
+	    			oimg[this.index].style.display='none';
+	    			this.className='out';
+                }
+	
+   	}
+   	
+	    	
+		    </script>         
+	    <script type="text/javascript ">
+   
+    function showWindow() {
+        $('#showdiv').show();  
+        $('#cover').css('display', 'block'); 
+        $('#cover').css('height', document.body.clientHeight + 'px');
+        
+    }
+
+    function closeWindow() {
+        $('#showdiv').hide();
+        $('#cover').css('display', 'none'); 
+       
+    }
+  
+</script>
+	    <script type="text/javascript ">
+  
+    function Windowxx() {
+        $('#div6').show();  
+        $('#cover').css('display', 'block'); 
+        $('#cover').css('height', document.body.clientHeight + 'px');
+    }
+ 
+    function Windowyy() {
+        $('#div6').hide();
+        $('#cover').css('display', 'none'); 
+       
+    }
+</script>
+
+</script>
+   <script>
+
+   	var odiv5=document.getElementById('div5');
+   	var qli=odiv5.getElementsByTagName('li');
+   	var qimg=odiv5.getElementsByTagName('img');
+   	timer=null;
+ 
+   	odiv5.onmouseover=qimg.onmouseover=function(){
+   		clearTimeout(timer);
+   		qimg.style.display='block';
+   	}
+   	odiv5.onmouseout=qimg.onmouseout=function(){
+   		timer=setTimeout(function(){
+   			qimg.style.display='none';
+   		},400);
+   	}
+   	
+   	
+   </script>
+   <script>
+   	      window.onscroll=window.onresize=function(){
+   	      	var let=document.getElementById('let');
+   	      	var ogo=document.getElementById('go');
+   	      	var oxx=document.getElementById('xx');
+   	      	var oqq=document.getElementById('qq');
+   	      	var ozz=document.getElementById('zz');
+   	      	var oxo=document.getElementById('xo');
+   	      	var omouse=document.getElementById('mouse');
+   	      	var otex5=document.getElementById('tex5');
+   	      	var oul2=document.getElementById('ul1');
+   	      	var lkj=document.getElementById('lkj');
+   	      	var meo=document.getElementById('meo');
+   	      	var meo1=document.getElementById('meo1');
+   	      	var meo2=document.getElementById('meo2');
+   	      	var meo3=document.getElementById('meo3');
+   	      	var meo4=document.getElementById('meo4');
+   	      	var meo5=document.getElementById('meo5');
+   	      	var heo=document.getElementById('heo');
+   	      	var mnb=document.getElementById('mnb');
+   	      	var mnb1=document.getElementById('mnb1');
+   	      	
+   	      	var heo1=document.getElementById('heo1');
+   	      	var height=200;
+   	      	var width=100;
+   	      	var width1=150;
+   	      	var width2=560;
+   	      	var width3=495;
+   	      	var width4=405;
+   	      	var width5=500;
+   	      	var width6=612;
+   	      	var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+   	      	oxx.style.top=document.documentElement.clientHeight-oxx.offsetHeight+scrolltop-height+'px';
+   	      	ozz.style.top=document.documentElement.clientHeight-ozz.offsetHeight+scrolltop+'px';
+   	      	meo.style.top=document.documentElement.clientHeight-meo.offsetHeight+scrolltop-width3+'px';
+   	      	meo1.style.top=document.documentElement.clientHeight-meo1.offsetHeight+scrolltop-width3+'px';
+   	      	meo2.style.top=document.documentElement.clientHeight-meo2.offsetHeight+scrolltop-width3+'px';
+   	      	meo3.style.top=document.documentElement.clientHeight-meo3.offsetHeight+scrolltop-width4+'px';
+   	      	meo4.style.top=document.documentElement.clientHeight-meo4.offsetHeight+scrolltop-width4+'px';
+   	      	meo5.style.top=document.documentElement.clientHeight-meo5.offsetHeight+scrolltop-width4+'px';
+   	      	heo.style.top=document.documentElement.clientHeight-heo.offsetHeight+scrolltop-width4+'px';
+   	      	heo1.style.top=document.documentElement.clientHeight-heo1.offsetHeight+scrolltop-width4+'px';
+   	      	mnb.style.top=document.documentElement.clientHeight-mnb.offsetHeight+scrolltop-width5+'px';
+   	      	mnb1.style.top=document.documentElement.clientHeight-mnb1.offsetHeight+scrolltop-width5+'px';
+   	      	let.style.top=document.documentElement.clientHeight-
+   	      	let.offsetHeight+scrolltop+'px';
+   	      	let.onclick=function(){
+   	      		document.body.scrollTop=0;
+   	      		document.documentElement.scrollTop=0;
+   	      	
+   	      	}
+   	      	  	var odiv1=document.getElementById('div1');
+       	var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+       	
+       	if(scrolltop>100){
+       		odiv1.style.top=document.documentElement.clientHeight-odiv1.offsetHeight-width6+scrolltop+'px';
+       	}else{
+       	odiv1.style.top=0}
+   	     if(document.body.scrollTop>400||document.documentElement.scrollTop>1100){
+   	     	let.style.display='block';
+   	     }else{
+   	     	let.style.display='none';
+   	     }
+   	      if(document.body.scrollTop>400||document.documentElement.scrollTop>1100){
+   	     	ozz.style.display='block';
+   	     }else{
+   	     	ozz.style.display='none';
+   	     }
+   	  
+    	ogo.style.top=document.documentElement.clientHeight-ogo.offsetHeight+scrolltop+'px';
+    	if(document.body.scrollTop>400||document.documentElement.scrollTop>1100){
+    	ogo.style.display='block';
+    	}else{
+    		ogo.style.display='none';
+    	}
+    	ogo.onclick=function(){
+    		oxx.style.display='block';
+    	}
+    	oqq.onclick=function(){
+    		oxx.style.display='none';
+    	}
+    	omouse.style.top=document.documentElement.clientHeight-omouse.offsetHeight+scrolltop-width+'px';
+    	oxo.style.top=document.documentElement.clientHeight-oxo.offsetHeight+scrolltop-width+'px';
+    	otex5.style.top=document.documentElement.clientHeight-otex5.offsetHeight+scrolltop-width+'px';
+    	oul2.style.top=document.documentElement.clientHeight-oul2.offsetHeight+scrolltop-width1+'px';
+    	lkj.style.top=document.documentElement.clientHeight-lkj.offsetHeight+scrolltop-width2+'px';
+    	ozz.onclick=function()
+    	{
+    	    omouse.style.display='block';
+    	}
+         lkj.onclick=function(){
+    	omouse.style.display='none';
+    	}
+   	      }
+   	   
+   </script>
+   <script >
+   /* window.onscroll=function(){
+    	var ogo=document.getElementById('go');
+    	var scrolltop1=document.documentElement.scrollTop||document.body.scrollTop;
+    	ogo.style.top=document.documentElement.clientHeight-ogo.offsetHeight+scrolltop1+'px';
+    	if(document.documentElement.scrollTop>1100){
+    	ogo.style.display='block';
+    	}else{
+    		ogo.style.display='none';
+    	}
+    	ogo.onclick=function(){
+    		
+    	}
+    }
+   </script>
+        <script >
+        		var xsearch=document.getElementById('cxz');
+        		var osuch=document.getElementById('such')
+        		xsearch.onclick=function(ev){
+        			var oevent=ev||event;
+        			var i=2.5;
+        			var x=1;
+        			xsearch.style.borderWidth=i+'px';
+        			oevent.stopPropagation();
+        			
+        		}
+        	    osuch.onclick=function(){
+        			
+        			xsearch.style.borderWidth=xsearch.style.border;
+        		}	
+        		$('#cxz').focus(function(){
+        			$(this).css('border-width','5px','border-color','gray');
+        		})
+        			$('#cxz').blur(function(){
+        			$(this).css('border-width','1px');
+        		})
+       </script>
+       <script>
+       	$("#xo").click(function(){
+       		$("#zz").slideToggle(1000);
+       	})
+       </script>
+       <script>
+     /*  	var odiv1=document.getElementById('div1');
+       	var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+       	
+       	if(scrolltop>100){
+       		odiv1.style.top=document.documentElement.clientHeight-odiv1.offsetHeight+scrolltop+'px';	
+       	}
+       </script>
+
+	</body>
+</html>
